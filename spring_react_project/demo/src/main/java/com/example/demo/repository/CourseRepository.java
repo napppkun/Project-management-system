@@ -1,0 +1,12 @@
+package com.example.demo.repository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.model.Course;
+
+@Repository
+public interface CourseRepository extends CrudRepository<Course, Integer> {
+        
+}
